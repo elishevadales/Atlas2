@@ -1,0 +1,16 @@
+header .countries a{
+    margin-left: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white !important;
+}
+header a:hover{
+    color: black !important;
+}
+body{
+    background-image: url(../images/pexels-patrik-felker-6220559.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
