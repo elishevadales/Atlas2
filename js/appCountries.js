@@ -38,6 +38,11 @@ const declareEvents = () => {
     searchBtn.addEventListener("click", () => {
         doApi(input.value);
     })
+    document.addEventListener("keydown", (e) => {
+        if(e.key == "Enter"){
+            doApi(input.value);
+        }
+    })
 
 }
 
